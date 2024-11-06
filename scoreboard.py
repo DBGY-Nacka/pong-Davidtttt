@@ -37,3 +37,4 @@ class Scoreboard(Turtle):
         self.write("Game Over!", align=ALIGNMENT, font=("Courier", 50, "bold"))
         self.goto(0, -60)
         self.write(f"{winner_name} wins!", align=ALIGNMENT, font=("Courier", 40, "normal"))
+

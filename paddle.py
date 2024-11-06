@@ -18,3 +18,4 @@ class Paddle(Turtle):
         new_y = self.ycor() - 50
         if new_y > -270:
             self.goto(self.xcor(), new_y)
+

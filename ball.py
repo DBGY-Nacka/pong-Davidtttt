@@ -34,3 +34,4 @@ class Ball(Turtle):
         self.goto(0, 0)
         self.dx = random.choice([10, -10])
         self.dy = random.choice([10, -10])
+
